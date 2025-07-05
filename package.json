@@ -1,0 +1,21 @@
+{
+  "name": "allay",
+  "displayName": "allay",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "allay",
+        "uiTheme": "vs-dark",
+        "path": "./themes/allay-color-theme.json"
+      }
+    ]
+  }
+}
