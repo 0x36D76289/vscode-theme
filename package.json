@@ -1,11 +1,11 @@
 {
-  "name": "vscode-theme",
-  "displayName": "0x36D76289 Theme",
-  "description": "A modern dark theme with vibrant blue and purple colors for VS Code",
-  "version": "0.0.2",
+  "name": "allay-theme",
+  "displayName": "Allay Theme",
+  "description": "A modern theme with vibrant blue and purple accents, available in both dark and light variants.",
+  "version": "1.0.0",
   "publisher": "0x36D76289",
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -13,6 +13,8 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
+    "allay",
     "blue",
     "purple",
     "modern"
@@ -28,9 +30,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "allay",
+        "label": "Allay Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vscode-theme-color-theme.json"
+        "path": "./themes/allay-dark-color-theme.json"
+      },
+      {
+        "label": "Allay Light",
+        "uiTheme": "vs",
+        "path": "./themes/allay-light-color-theme.json"
       }
     ]
   }

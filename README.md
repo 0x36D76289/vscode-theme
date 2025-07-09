@@ -1,52 +1,74 @@
-# allay Theme
+# Allay Theme for VS Code
 
-A modern dark theme for Visual Studio Code with vibrant blue and purple colors inspired by the Christian Lempa color palette.
+[![Licence GitHub](https://img.shields.io/github/license/0x36D76289/vscode-theme?style=for-the-badge)](./LICENSE)
 
-## Preview
+**Allay** est un thème moderne pour Visual Studio Code, conçu pour être à la fois esthétique et fonctionnel. Avec des accents vibrants de bleu et de violet, il offre un contraste parfait pour réduire la fatigue oculaire tout en rendant votre code éclatant.
 
-allay provides a sleek, dark interface with carefully selected colors that are easy on the eyes while maintaining excellent code readability.
+Le thème est disponible en deux variantes soigneusement conçues pour s'adapter à votre environnement de travail, que vous préfériez les interfaces sombres ou claires.
 
-### Color Palette
+---
 
-- **Background**: `#1A1A1A` - Deep dark background
-- **Foreground**: `#F1F1F1` - Light gray text
-- **Blue tones**: `#4362ff`, `#5C78FF` - Functions and methods
-- **Purple tones**: `#2883FF`, `#7129FF` - Keywords and strings
-- **Accent colors**: Various bright colors for syntax highlighting
+## 🚀 Installation
 
-## Installation
+Vous pouvez installer le thème de deux manières.
 
-### From VS Code Marketplace
+### Via l'interface graphique (GUI)
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "allay Theme"
-4. Click Install
+1.  Ouvrez **Visual Studio Code**.
+2.  Allez dans le panneau **Extensions** en cliquant sur l'icône dans la barre d'activités ou en utilisant le raccourci `Ctrl+Shift+X`.
+3.  Recherchez `Allay Theme`.
+4.  Cliquez sur le bouton **Installer**.
+5.  VS Code vous demandera de sélectionner l'un des thèmes Allay.
 
-### Manual Installation
+### Via la ligne de commande (CLI)
 
-1. Download the `.vsix` file from the releases
-2. Open VS Code
-3. Go to Extensions (Ctrl+Shift+X)
-4. Click the three dots menu and select "Install from VSIX..."
-5. Select the downloaded file
+1.  Ouvrez votre terminal.
+2.  Exécutez la commande suivante :
 
-## Activation
+```bash
+npm install -g vsce
+vsce package
+code --install-extension allay-theme-0.0.1.vsix
+```
 
-1. Open VS Code
-2. Go to File > Preferences > Color Theme (Ctrl+K Ctrl+T)
-3. Select "allay" from the list
+3.  Redémarrez VS Code si nécessaire.
 
-## Features
+---
 
-- Dark theme optimized for long coding sessions
-- Vibrant but balanced colors for syntax highlighting
-- Excellent contrast for readability
-- Support for all major programming languages
-- Consistent color scheme across the entire VS Code interface
+## 🎨 Activation
 
-## License
+Après l'installation, ou à tout moment pour changer de thème :
 
-MIT License - see LICENSE file for details
+1.  Ouvrez la **Palette de Commandes** avec `Ctrl+Shift+P`.
+2.  Tapez `Preferences: Color Theme` et appuyez sur Entrée.
+3.  Dans la liste, choisissez `Allay Dark` ou `Allay Light`.
 
-**Enjoy coding with allay!**
+---
+
+## 🔧 Paramètres Recommandés
+
+Pour une expérience visuelle optimale, je vous recommande d'utiliser une police qui supporte les ligatures de code, comme **Fira Code** ou **JetBrains Mono**.
+
+Voici un exemple de configuration à ajouter à votre fichier `settings.json` :
+
+```json
+{
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "workbench.colorTheme": "Allay Dark" // ou "Allay Light"
+}
+```
+
+---
+
+## 💬 Feedback & Contribution
+
+Vous avez trouvé un bug ou une couleur qui ne s'affiche pas correctement ? Vous avez une suggestion d'amélioration ?
+
+N'hésitez pas à **ouvrir une issue** sur le [dépôt GitHub](https://github.com/0x36D76289/vscode-theme/issues) !
+
+## 📜 Licence
+
+Ce thème est publié sous la [Licence MIT](./LICENSE).
