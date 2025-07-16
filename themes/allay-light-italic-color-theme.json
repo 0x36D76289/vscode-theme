@@ -1,5 +1,5 @@
 {
-    "name": "Allay Light",
+    "name": "Allay Light Italic",
     "type": "light",
     "colors": {
         // BASE EDITOR COLORS
@@ -202,148 +202,60 @@
             }
         },
         {
-            "name": "Keyword, Storage",
+            "name": "Language Keywords",
             "scope": [
                 "keyword",
+                "keyword.control",
+                "keyword.operator",
+                "keyword.other",
                 "storage.type",
-                "storage.modifier"
-            ],
-            "settings": {
-                "foreground": "#0059B3",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Keyword Control",
-            "scope": [
-                "keyword.control"
-            ],
-            "settings": {
-                "foreground": "#7B1FA2",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Operator, Misc",
-            "scope": [
-                "punctuation",
-                "meta.tag",
-                "punctuation.definition.tag",
-                "punctuation.separator.inheritance.php"
-            ],
-            "settings": {
-                "foreground": "#37474F"
-            }
-        },
-        {
-            "name": "Logical Operators",
-            "scope": [
+                "storage.modifier",
+                "keyword.control.import",
+                "keyword.control.export",
+                "keyword.control.from",
+                "keyword.control.as",
+                "keyword.control.default",
+                "keyword.control.new",
+                "keyword.control.throw",
+                "keyword.control.return",
+                "keyword.control.flow",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.control.exception",
                 "keyword.operator.logical",
-                "keyword.operator.comparison"
-            ],
-            "settings": {
-                "foreground": "#E91E63",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Tag",
-            "scope": [
-                "entity.name.tag",
-                "markup.deleted.git_gutter"
-            ],
-            "settings": {
-                "foreground": "#9800D6",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Function, Special Method",
-            "scope": [
-                "entity.name.function",
-                "meta.function-call",
-                "support.function",
+                "keyword.operator.comparison",
+                "keyword.operator.arithmetic",
+                "keyword.operator.assignment",
+                "keyword.operator.word",
+                "keyword.other.unit",
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#4362ff",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Built-in Functions",
-            "scope": [
-                "support.function.builtin"
-            ],
-            "settings": {
-                "foreground": "#1976D2",
+                "foreground": "#0059B3",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Number, Constant, Function Argument",
-            "scope": [
-                "constant.numeric",
-                "constant.language",
-                "support.constant",
-                "constant.character",
-                "variable.parameter",
-                "keyword.other.unit"
-            ],
-            "settings": {
-                "foreground": "#3824b3"
-            }
-        },
-        {
-            "name": "Boolean Constants",
-            "scope": [
-                "constant.language.boolean"
-            ],
-            "settings": {
-                "foreground": "#C2185B",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "String, Symbols, Inherited Class",
-            "scope": [
-                "string",
-                "constant.other.symbol",
-                "entity.other.inherited-class",
-                "markup.inserted.git_gutter"
-            ],
-            "settings": {
-                "foreground": "#6A0DAD"
-            }
-        },
-        {
-            "name": "String Interpolation",
-            "scope": [
-                "string.template",
-                "string.interpolated"
-            ],
-            "settings": {
-                "foreground": "#7B1FA2",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Class, Support",
-            "scope": [
-                "entity.name",
-                "support.type",
-                "support.class"
-            ],
-            "settings": {
-                "foreground": "#3824b3",
-                "fontStyle": "bold"
             }
         },
         {
             "name": "Types",
             "scope": [
                 "entity.name.type",
-                "support.type.primitive"
+                "support.type",
+                "support.class",
+                "support.type.primitive",
+                "support.type.builtin",
+                "support.type.property-name",
+                "entity.name.class",
+                "entity.other.inherited-class",
+                "storage.type.class",
+                "storage.type.function",
+                "storage.type.interface",
+                "storage.type.enum",
+                "storage.type.struct",
+                "storage.type.union",
+                "storage.type.generic",
+                "storage.type.annotation",
+                "storage.type.primitive",
+                "support.type.sys-types"
             ],
             "settings": {
                 "foreground": "#00796B",
@@ -351,32 +263,88 @@
             }
         },
         {
-            "name": "Attributes",
+            "name": "Functions",
             "scope": [
-                "entity.other.attribute-name"
+                "entity.name.function",
+                "support.function",
+                "support.function.builtin",
+                "support.function.magic",
+                "support.function.construct",
+                "support.function.any-method",
+                "meta.function-call",
+                "variable.function"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#3824b3"
-            }
-        },
-        {
-            "name": "CSS Properties",
-            "scope": [
-                "support.type.property-name.css"
-            ],
-            "settings": {
-                "foreground": "#1976D2",
+                "foreground": "#4362ff",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "CSS Values",
+            "name": "Operators and Punctuation",
             "scope": [
-                "support.constant.property-value.css"
+                "punctuation",
+                "meta.tag",
+                "punctuation.definition.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.parameters",
+                "punctuation.definition.array",
+                "punctuation.separator.delimiter",
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#37474F"
+            }
+        },
+        {
+            "name": "Numbers and Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.constant",
+                "constant.character",
+                "constant.other",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#3824b3"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template",
+                "string.interpolated",
+                "string.regexp",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#6A0DAD"
+            }
+        },
+        {
+            "name": "Tags and Attributes",
+            "scope": [
+                "entity.name.tag",
+                "entity.other.attribute-name",
+                "markup.deleted.git_gutter"
             ],
             "settings": {
                 "foreground": "#9800D6"
+            }
+        },
+        {
+            "name": "Classes and Entities",
+            "scope": [
+                "entity.name",
+                "entity.name.class",
+                "entity.name.namespace",
+                "entity.name.module",
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#3824b3"
             }
         },
         {
@@ -391,23 +359,15 @@
             }
         },
         {
-            "name": "Language methods",
+            "name": "Language Variables",
             "scope": [
-                "variable.language"
+                "variable.language",
+                "variable.language.this",
+                "variable.language.self",
+                "variable.language.super"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#9800D6"
-            }
-        },
-        {
-            "name": "Regex",
-            "scope": [
-                "string.regexp"
-            ],
-            "settings": {
-                "foreground": "#E91E63",
-                "fontStyle": "italic"
+                "foreground": "#C2185B"
             }
         },
         {
@@ -451,36 +411,333 @@
             }
         },
         {
+            "name": "Python Decorators",
+            "scope": [
+                "entity.name.function.decorator.python",
+                "meta.function.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "Python Self Parameter",
+            "scope": [
+                "variable.parameter.function.language.special.self.python"
+            ],
+            "settings": {
+                "foreground": "#C2185B"
+            }
+        },
+        {
+            "name": "Java Annotations",
+            "scope": [
+                "storage.type.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "C/C++ Preprocessor",
+            "scope": [
+                "keyword.control.directive",
+                "meta.preprocessor"
+            ],
+            "settings": {
+                "foreground": "#7B1FA2"
+            }
+        },
+        {
+            "name": "Rust Lifetime",
+            "scope": [
+                "storage.modifier.lifetime.rust",
+                "entity.name.lifetime.rust"
+            ],
+            "settings": {
+                "foreground": "#FF6B35"
+            }
+        },
+        {
+            "name": "Go Package",
+            "scope": [
+                "entity.name.package.go"
+            ],
+            "settings": {
+                "foreground": "#00796B"
+            }
+        },
+        {
+            "name": "PHP Variables",
+            "scope": [
+                "variable.other.php",
+                "punctuation.definition.variable.php"
+            ],
+            "settings": {
+                "foreground": "#8E24AA"
+            }
+        },
+        {
+            "name": "Ruby Symbols",
+            "scope": [
+                "constant.other.symbol.ruby"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "Swift Attributes",
+            "scope": [
+                "storage.type.attribute.swift"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "Kotlin Annotations",
+            "scope": [
+                "storage.type.annotation.kotlin"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "Scala Case Classes",
+            "scope": [
+                "keyword.other.scalatype"
+            ],
+            "settings": {
+                "foreground": "#00796B",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Haskell Type Signatures",
+            "scope": [
+                "keyword.other.double-colon.haskell"
+            ],
+            "settings": {
+                "foreground": "#00796B"
+            }
+        },
+        {
+            "name": "Dart Metadata",
+            "scope": [
+                "storage.type.annotation.dart"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "Elixir Atoms",
+            "scope": [
+                "constant.other.symbol.elixir"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "Clojure Keywords",
+            "scope": [
+                "constant.keyword.clojure"
+            ],
+            "settings": {
+                "foreground": "#7B1FA2"
+            }
+        },
+        {
+            "name": "F# Attributes",
+            "scope": [
+                "support.function.attribute.fsharp"
+            ],
+            "settings": {
+                "foreground": "#E91E63"
+            }
+        },
+        {
+            "name": "OCaml Modules",
+            "scope": [
+                "entity.name.class.module.ocaml"
+            ],
+            "settings": {
+                "foreground": "#00796B"
+            }
+        },
+        {
+            "name": "Lua Global Variables",
+            "scope": [
+                "variable.other.lua"
+            ],
+            "settings": {
+                "foreground": "#8E24AA"
+            }
+        },
+        {
+            "name": "Perl Variables",
+            "scope": [
+                "variable.other.readwrite.global.perl",
+                "punctuation.definition.variable.perl"
+            ],
+            "settings": {
+                "foreground": "#8E24AA"
+            }
+        },
+        {
+            "name": "Shell Variables",
+            "scope": [
+                "variable.other.normal.shell",
+                "punctuation.definition.variable.shell"
+            ],
+            "settings": {
+                "foreground": "#8E24AA"
+            }
+        },
+        {
+            "name": "PowerShell Cmdlets",
+            "scope": [
+                "support.function.powershell"
+            ],
+            "settings": {
+                "foreground": "#4362ff",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "SQL Keywords",
+            "scope": [
+                "keyword.other.sql"
+            ],
+            "settings": {
+                "foreground": "#0059B3",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "R Functions",
+            "scope": [
+                "support.function.r"
+            ],
+            "settings": {
+                "foreground": "#4362ff",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "MATLAB Functions",
+            "scope": [
+                "support.function.matlab"
+            ],
+            "settings": {
+                "foreground": "#4362ff",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "name": "JSON Keys",
             "scope": [
                 "support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#1976D2",
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "YAML Keys",
+            "scope": [
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "TOML Keys",
+            "scope": [
+                "support.type.property-name.toml"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "XML/HTML Tags",
+            "scope": [
+                "entity.name.tag.xml",
+                "entity.name.tag.html"
+            ],
+            "settings": {
+                "foreground": "#9800D6"
+            }
+        },
+        {
+            "name": "CSS Properties",
+            "scope": [
+                "support.type.property-name.css"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "CSS Values",
+            "scope": [
+                "support.constant.property-value.css"
+            ],
+            "settings": {
+                "foreground": "#9800D6"
+            }
+        },
+        {
+            "name": "SASS/SCSS Variables",
+            "scope": [
+                "variable.scss",
+                "variable.sass"
+            ],
+            "settings": {
+                "foreground": "#8E24AA"
+            }
+        },
+        {
+            "name": "GraphQL Fields",
+            "scope": [
+                "variable.graphql"
+            ],
+            "settings": {
+                "foreground": "#1976D2"
+            }
+        },
+        {
+            "name": "Docker Instructions",
+            "scope": [
+                "keyword.other.special-method.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#0059B3",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "JavaScript/TypeScript Import/Export",
+            "name": "Makefile Targets",
             "scope": [
-                "keyword.control.import",
-                "keyword.control.export",
-                "keyword.control.from"
+                "entity.name.function.target.makefile"
             ],
             "settings": {
-                "foreground": "#7B1FA2",
+                "foreground": "#4362ff",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "This/Self Keywords",
+            "name": "Git Config",
             "scope": [
-                "variable.language.this",
-                "variable.language.self"
+                "support.type.property-name.gitconfig"
             ],
             "settings": {
-                "foreground": "#C2185B",
-                "fontStyle": "italic bold"
+                "foreground": "#1976D2"
             }
         }
     ]
