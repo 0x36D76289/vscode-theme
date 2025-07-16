@@ -38,6 +38,16 @@
         "label": "Allay Light",
         "uiTheme": "vs",
         "path": "./themes/allay-light-color-theme.json"
+      },
+      {
+        "label": "Allay Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/allay-dark-italic-color-theme.json"
+      },
+      {
+        "label": "Allay Light Italic",
+        "uiTheme": "vs",
+        "path": "./themes/allay-light-italic-color-theme.json"
       }
     ]
   }
