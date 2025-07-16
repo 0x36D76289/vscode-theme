@@ -4,7 +4,14 @@
 
 **Allay** est un thème moderne pour Visual Studio Code, conçu pour être à la fois esthétique et fonctionnel. Avec des accents vibrants de bleu et de violet, il offre un contraste parfait pour réduire la fatigue oculaire tout en rendant votre code éclatant.
 
-Le thème est disponible en deux variantes soigneusement conçues pour s'adapter à votre environnement de travail, que vous préfériez les interfaces sombres ou claires.
+Le thème est maintenant disponible en **quatre variantes** soigneusement conçues pour s'adapter à votre environnement de travail :
+
+- **Allay Dark** - Version sombre classique
+- **Allay Light** - Version claire classique  
+- **Allay Dark Italic** - Version sombre avec typographie italique
+- **Allay Light Italic** - Version claire avec typographie italique
+
+Les versions italiques offrent une expérience de codage plus élégante avec des éléments de syntaxe stylisés en italique pour une meilleure lisibilité et un rendu visuel plus sophistiqué.
 
 ---
 
@@ -41,7 +48,11 @@ Après l'installation, ou à tout moment pour changer de thème :
 
 1.  Ouvrez la **Palette de Commandes** avec `Ctrl+Shift+P`.
 2.  Tapez `Preferences: Color Theme` et appuyez sur Entrée.
-3.  Dans la liste, choisissez `Allay Dark` ou `Allay Light`.
+3.  Dans la liste, choisissez l'une des variantes :
+    - `Allay Dark` - Version sombre classique
+    - `Allay Light` - Version claire classique
+    - `Allay Dark Italic` - Version sombre avec typographie italique
+    - `Allay Light Italic` - Version claire avec typographie italique
 
 ---
 
@@ -57,7 +68,7 @@ Voici un exemple de configuration à ajouter à votre fichier `settings.json` :
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
-  "workbench.colorTheme": "Allay Dark" // ou "Allay Light"
+  "workbench.colorTheme": "Allay Dark" // ou "Allay Light", "Allay Dark Italic", "Allay Light Italic"
 }
 ```
 
